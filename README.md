@@ -68,3 +68,42 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Dependencias
+@testing-library/jest-dom (^5.17.0): Proporciona extensiones de Jest para facilitar las pruebas de DOM en React.
+@testing-library/react (^13.4.0): Biblioteca de pruebas para componentes de React.
+@testing-library/user-event (^13.5.0): Facilita la simulación de eventos de usuario en pruebas.
+react (^18.3.1): Biblioteca principal de React.
+react-dom (^18.3.1): Permite a React interactuar con el DOM.
+react-router-dom (^6.27.0): Proporciona enrutamiento para aplicaciones de React.
+react-scripts (5.0.1): Scripts de configuración y comandos para aplicaciones creadas con Create React App.
+web-vitals (^2.1.4): Ayuda a medir el rendimiento web en términos de métricas esenciales.
+Scripts
+Los siguientes scripts están disponibles para el desarrollo y el despliegue de la aplicación:
+
+start: Ejecuta la aplicación en modo de desarrollo (react-scripts start).
+build: Construye la aplicación para producción (react-scripts build).
+test: Ejecuta las pruebas de la aplicación (react-scripts test).
+eject: Expone la configuración de Create React App para personalización avanzada (react-scripts eject).
+Nota: eject es una operación irreversible que permite personalizar el proyecto más allá de la configuración predeterminada.
+
+Configuración de ESLint
+Se utiliza ESLint para mantener la calidad del código, con las siguientes configuraciones predeterminadas:
+
+react-app: Reglas básicas para aplicaciones de React.
+react-app/jest: Configuraciones de prueba para Jest.
+Configuración de compatibilidad con navegadores (browserslist)
+Para asegurarse de que la aplicación funcione en una variedad de navegadores, se configura la compatibilidad de la siguiente manera:
+
+Producción:
+
+Navegadores que abarcan más del 0.2% del uso global.
+Excluye navegadores que han quedado obsoletos ("dead").
+Excluye todas las versiones de Opera Mini.
+Desarrollo:
+
+Última versión de Chrome, Firefox y Safari para facilitar la depuración en desarrollo.
+Instrucciones para ejecutar el proyecto
+Clona el repositorio.
+Ejecuta npm install para instalar las dependencias.
+Ejecuta npm start para iniciar la aplicación en el modo de desarrollo.
